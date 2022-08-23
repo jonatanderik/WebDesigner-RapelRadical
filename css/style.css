@@ -1,0 +1,266 @@
+﻿body {
+    /*background-color: rgba(117, 117, 117, 0.3);*/
+    background-color: #343a40;
+}
+
+hr {
+    width:72%;
+    background-color: white;
+}
+
+.text-center {
+    text-align:-webkit-center;
+}
+
+/*----------------CAPA---------------*/
+.logo {
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+
+#img-home {
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
+
+
+#card-rodape {
+    align-self: center;
+}
+
+.separar-nav {
+    margin-top:55px;
+    /*background-image: url("/img/Foto1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;*/
+}
+
+
+/*------------------Inscrições------------------------*/
+
+#btn-proxima-atividade {
+    font-size: 1em;
+    color:white;
+    border-style: none;
+    background-color: #f8f9fa2b !important;
+}
+
+#btn-proxima-atividade:hover {
+    font-size: 1em;
+    color:white;
+    background-color: #f8f9fa70 !important;
+    border-color: #f8f9fa30 !important;
+}
+
+#btn-proxima-atividade p {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+.img-atividades {
+    width: 100px;
+}
+
+
+.inscricoes {
+    top:0px !important;
+    right:0px !important;
+    bottom:0px !important;
+    left:0px !important;
+}
+
+.atividade1, .atividade2 {
+    display: none;
+}
+
+.iscr2 {
+    width: 30% !important;
+}
+
+/*----------------Quem Somos------------------*/
+
+.txt-quemsomos {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.quem-somos {
+    background-image: url("../img/equipe.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 50%;
+    width:100%;
+}
+
+.vsFuturo {
+    background-image: url("../img/quemsomos1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+    min-height: 700px;
+}
+
+.sobreEquipe {
+    background-image: url("../img/equipe.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+    min-height: 700px;
+}
+
+#contato-nome-input {
+    width: 50%;
+}
+
+#contato-email {
+    margin-left: 8%;
+}
+
+#contato-email-input {
+    margin-left: 8%;
+    width: 50%;
+}
+
+#contato-tel {
+    margin-left: 15%;
+}
+
+#contato-tel-input {
+    margin-left: 15%;
+    width: 50%;
+}
+
+#textArea-form {
+    width: 51%;
+    margin-left: 15%;
+}
+
+main ul {
+    list-style: none;
+}
+
+main ul li {
+    float: right;
+    margin: 5px 5px;
+}
+
+#buttonForm {
+    margin-left: 35%;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 80%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+    width: 72px;
+    border-radius: 100%;
+}
+
+/*--------------Rodapé--------------------*/
+
+footer {
+    padding: 50px, 0px, 20px, 0px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 5px 5px;
+}
+
+.img-rodape img {
+    width: 48px;
+}
+
+.senacLogo {
+    width: 62px;
+}
+
+
+/*------------------------------------------*/
+
+@media (max-width: 575.98px) {
+    .logo {
+        position: relative;
+    }
+
+    .separar-nav {
+        margin-top:125px !important;
+    }
+
+    hr {
+        width:95%;
+    }
+}
+
+@media (max-width: 992px) {
+    hr {
+        width:72%;
+    }
+
+    #rr {
+        text-align: -webkit-center
+    }
+}
+
+@media (max-width: 380px ) {
+    main .card #midias {
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+}
+
+@media (min-width: 381px ) {
+    main .card #midias {
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+}
+
+@media (min-width: 411px ) {
+    main .card #midias {
+        padding-left: 15%;
+        padding-right: 35%;
+    }
+}
+
+@media (min-width: 489px ) {
+    main .card #midias {
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+}
+
+
+@media (min-width: 1891px ) {
+    hr {
+        width:50%;
+        background-color: white;
+    }
+}
+
+@media (min-width: 1601px ) {
+    hr {
+        width:45%;
+        background-color: white;
+    }
+}

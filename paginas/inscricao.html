@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="imagem/png" href="../img/logoRR.png" />
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Rapel Radical - Inscrição</title>
+</head>
+<body>
+    <div>
+        <!--Barra de navegação-->
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <!--Img Logo-->
+                    <a class="navbar-brand " href="../index.html">
+                        <img class="logo" src="../img/logoRR.png" alt="Icone Rapel Radical">
+                    </a>
+                    <!--Fim-->
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="nav-principal">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/atividades.html">Atividades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/contato.html">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html#quem-somos">Quem Somos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+         <!--Fim barra de navegação!-->
+        <main>
+            <div class="container card separar-nav" style="height: 100%;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-title mt-5 text-center">
+                            <h1>Inscrições!</h1>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="../paginas/inscricao-2.html" method="GET">
+                                        <div class="col-md-4 float-left">
+                                            <label for="atividades">Atividades : </label>
+                                            <select required="required" class="form-control" name="atividades" id="atividades">
+                                                <option value="" disabled selected>Escolha uma atividade !</option>
+                                                <option value="atividade1"> Atividade 1</option>
+                                                <option value="atividade2"> Atividade 2</option>
+                                            </select>
+                                            <br>
+                                            <label for="qtdIngresso">Quantos Ingressos?</label>
+                                            <input  class="form-control" required="required" type="number" name="qtdIngresso" id="qtdIngresso" min="1" step="1">
+                                            <br>
+                                            <div class="text-center d-none d-md-block">
+                                                <button class="btn btn-outline-dark">Inscreva-se</button>
+                                            </div>
+                                        </div>
+                                        <!--Mapas-->
+                                        <div class="col-md-8 float-right maps">
+                                            <div class="text-center mb-2 atividade1">
+                                                <img class="img-fluid" src="../img/cachoeira1.jpg" alt="Cachoeira">
+                                                <hr class="hide">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!4v1573913225592!6m8!1m7!1s_on8M46ySPd4pKd-none d-md-blockmMLfkKNA!2m2!1d-15.29078922803978!2d-47.54666729558274!3f29.433717395290675!4f-1.8448137464461922!5f0.7820865974627469" width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                            </div>
+                                            <div class="text-center mb-2 atividade2">
+                                                <img class="img-fluid " src="../img/cachoeira2.jpg" alt="">
+                                                <hr class="hide">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.2830465355569!2d-47.54666729558273!3d-15.290789228039777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a7f5daaff0f67%3A0xc717115585742675!2sEcoBocaina!5e0!3m2!1spt-BR!2sbr!4v1573914578852!5m2!1spt-BR!2sbr" width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>                                
+                                            </div>
+                                            <!--Fim-->  
+                                            <div class="text-center d-md-none" id="btn-maps-inscricao">
+                                                <button class="btn btn-outline-dark">Inscreva-se</button>
+                                            </div>
+                                        </div>    
+                                    </form>
+                                 </div>
+                            </div>
+                        </div>                           
+                            
+                        <div class="card text-justify align-content-center d-md-none">
+                            <!--Midias sociais breaking point md-->
+                            <div class="col-md-12  card mb-2" id="midias">
+                                <div class="img-rodape"> 
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                                                <img src="../img/icons/youtube-logo-in-a-square.png" alt="icone youtube">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                                <img src="../img/icons/instagram-logo.png" alt="icone instagram">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                                <img src="../img/icons/twitter-logo-on-black-background.png" alt="icone twitter">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://pt-br.facebook.com" target="_blank" rel="noopener noreferrer">
+                                                <img src="../img/icons/facebook-app-logo.png" alt="icone facebook">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Fim-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Whtasapp-->
+            <div class="col-md-2">
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=+556199696101010&text=Quero mais informações sobre o Rapel Radical!" target="_blank"><img  class="whatsapp" src="../img/icons/whatsapp.png" alt="whatsapp icon" /></a>
+                </div>
+            </div>
+            <!--Fim-->
+        </main>
+        <!--Fim Conteúdo-->
+        <hr class="hide">
+        <footer class="bg-dark text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 img-rodape" id="rr">
+                        <img src="../img/Rapel-Radical-Branco.png" alt="Icone Rapel Radical">
+                    </div>
+                    <div class="col-md-6 d-none d-md-block img-rodape">
+                        <div class="../img-rodape"> 
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                        <img src="../img/icons-white/instagram-logo.png" alt="Icone instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://pt-br.facebook.com" target="_blank" rel="noopener noreferrer">
+                                        <img src="../img/icons-white/facebook-app-logo.png" alt="Icone facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                        <img src="../img/icons-white/twitter-logo-on-black-background.png" alt="Icone twitter">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                                        <img src="../img/icons-white/youtube-logo-in-a-square.png" alt="Icone youtube">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                   
+                    <div class="col-sm-12 mb-3" style="text-align: center;">
+                        <img src="../img/icons-white/Cadastur.png" alt="Icone Cadastrur">
+                    </div>
+                    <div class="col-sm-12 mb-1 text-light font-italic" style="text-align: center; font-size: 0.8em">
+                        <div>
+                            <a href="https://www.df.senac.br/cursos/webdesigner/" target="_blank" rel="noopener noreferrer">
+                                <img class="senacLogo"  src="../img/icons-white/logo_senac2.png" alt="logo senac">
+                            </a>
+                        </div>
+                        <div class="d-inline-block" style="text-align: center;">
+                            <p class="credits"> © Curso de Webdesigner - Grupo 2</p>
+                            <ul>
+                                <li>Jonatan Dérik</li>
+                                <li>Jeferson Ávila</li>
+                                <li>Luiz Henrique</li>
+                                <li>Lucas Fernandes</li>
+                                <li>Guilherme Costa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/jquery-3.3.1.min.js" ></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/javascript.js"></script>
+</body>
+</html>
